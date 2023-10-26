@@ -162,8 +162,9 @@ li:not(:first-child) span {
     font-weight: 500;
 }
 
-@media (max-width: 747px) {
+@media (max-width: 780px) {
     .wrapper {
+        width: 550px;
         padding: 20px;
     }
     .content-box .content {
@@ -195,7 +196,7 @@ li:not(:first-child) span {
     }
 }
 
-@media (max-width: 518px) {
+@media (max-width: 559px) {
     .wrapper .content-box {
         padding: 10px 15px 0;
     }
