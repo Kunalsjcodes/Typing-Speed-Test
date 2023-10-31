@@ -48,7 +48,7 @@ function initTyping() {
             }
             charIndex++;
         }
-        characters.forEach(span => span.classList.remmove("active"));
+        characters.forEach(span => span.classList.remove("active"));
         characters[charIndex].classList.add("active");
 
         let wpm = Math.round(((charIndex - mistakes) / 5) / (maxTime - timeLeft) * 60);
