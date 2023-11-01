@@ -23,7 +23,7 @@ h1 {
 }
 
 .wrapper {
-    width: 770px;
+    width: 1000px;
     padding: 35px;
     background: #fff;
     border-radius: 10px;
@@ -44,7 +44,7 @@ h1 {
 
 .content-box .typing-text {
     overflow: hidden;
-    max-height: 256px;
+    max-height: 400px;
 }
 
 .typing-text::-webkit-scrollbar {
